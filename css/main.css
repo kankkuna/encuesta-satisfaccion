@@ -1,0 +1,35 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+ }
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 4em;
+    right: 0px;
+    text-decoration: none;
+    color: #862985;
+    background-color: #ffff;
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+    z-index: 1000;
+    font-family: "Oswald", sans-serif;
+}
+
+
+.back-to-top:hover {
+    background-color: rgba(134, 41, 133, 0);
+    font-family: "Oswald", sans-serif;
+}
