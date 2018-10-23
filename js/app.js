@@ -1,6 +1,6 @@
 // scroll body to 0px on click
 jQuery(document).ready(function() {
-    var offset = 550;
+    var offset = 250;
     var duration = 300;
     jQuery(window).scroll(function() {
         if (jQuery(this).scrollTop() > offset) {
